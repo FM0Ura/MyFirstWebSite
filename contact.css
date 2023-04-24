@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -21,6 +22,9 @@ nav ul {
     align-items: center;
     width: 100%;
     font-size: larger;
+}
+
+nav li {
     color: white;
 }
 
@@ -31,9 +35,10 @@ nav li:hover {
     background-color: #F5007B;
     border-radius: 30px;
     padding: 30px;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 header {
     display: flex;
     height: 100px;
@@ -98,30 +103,30 @@ button {
     border-radius: 20px;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     height: 60px;
     width: 220px;
     transition: 0.5s;
 }
 
-footer{
-    width:100%;
+footer {
+    width: 100%;
     height: 100px;
     align-items: center;
-    background-color: #001D2C;
+    background-color:#3f5661;
 }
 
-#social{
+#social {
     display: flex;
     width: 100%;
     height: 100%;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     text-align: center;
 }
 
-.socials{
+.socials {
     width: 50px;
     height: 50px;
 }
