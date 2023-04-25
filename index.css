@@ -12,6 +12,10 @@ body {
     background-color: #F5F2ED;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*Barra de Navegação*/
 
 nav {
@@ -197,3 +201,4 @@ footer {
     color: white;
     display: flex;
 }
+
