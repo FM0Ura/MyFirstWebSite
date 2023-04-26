@@ -3,7 +3,7 @@
     padding: 0;
     text-decoration: none;
 }
-
+/*Tudo terminado*/
 body {
     background-color: #F5F2ED;
 }
@@ -38,6 +38,12 @@ nav li:hover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+ul a img{
+    width: 70px;
+    height: auto;
+}
+
 
 header {
     display: flex;
@@ -129,9 +135,4 @@ footer {
 .socials {
     width: 50px;
     height: 50px;
-}
-
-img{
-    width: 50px;
-    height: auto;
 }

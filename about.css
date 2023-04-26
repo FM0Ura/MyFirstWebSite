@@ -7,7 +7,7 @@
 /*Barra de Navegação*/
 
 body {
-   background-color: #F5F2ED;
+    background-color: #F5F2ED;
 }
 
 nav {
@@ -27,7 +27,7 @@ nav ul {
 }
 
 
-nav li{
+nav li {
     color: white;
     transition: 0.8s ease-in-out;
 }
@@ -39,8 +39,8 @@ nav li:hover {
     background-color: #F5007B;
     border-radius: 30px;
     padding: 30px;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* FIM - Barra de Navegação*/
@@ -50,31 +50,37 @@ header {
     display: flex;
     height: 700px;
     width: 100%;
-    align-items: center;    
+    align-items: center;
 }
 
 #eu {
     display: flex;
-    width: 50%;
-    height: 80%;
-    margin-left:60px ;
+    width: 55%;
+    height: 60%;
+    margin-left: 60px;
     border-radius: 30px;
 }
 
-.history{
+.history {
     margin-left: 40px;
     margin-right: 50px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-li{
-    margin-left:30px ;
+
+li {
+    margin-left: 30px;
     font-size: large;
 }
 
-.history p{
+ul a img {
+    width: 70px;
+    height: auto;
+}
+
+.history p {
     font-size: large;
 }
 
@@ -85,7 +91,7 @@ main {
     display: flex;
 }
 
-#titulo{
+#titulo {
     justify-content: center;
     width: 100%;
     align-items: center;
@@ -114,20 +120,21 @@ main {
     padding: 40px;
     box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.4);
 }
+
 /*Perguntar ao Otávio sobre como colcoar isso na parte de baixo*/
-.estrada p{
+.estrada p {
     justify-content: flex-end;
     width: 100%;
     text-align: center;
-    align-items:flex-end;
+    align-items: flex-end;
 }
 
-#box{
+#box {
     display: flex;
 }
 
-a{
-    color:white
+a {
+    color: white
 }
 
 footer {

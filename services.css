@@ -1,3 +1,6 @@
+
+/*Tudo terminado*/
+
 /*Universal*/
 * {
     margin: 0;
@@ -35,6 +38,11 @@ nav ul {
     align-items: center;
     width: 100%;
     font-size: larger;
+}
+
+ul a li img{
+    width: 70px;
+    height: auto;
 }
 
 .links {
