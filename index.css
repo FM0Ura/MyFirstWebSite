@@ -113,9 +113,20 @@ header {
     align-items: center;
 }
 
+
 #foto img{
-    width: 70%;
+    width: 50%;
     height: auto;
+    border-radius: 30%;
+    transition: 0.8s ease-in-out;
+}
+
+
+#foto img:hover{
+    transition: 0.8s ease-in-out;
+    height: auto;
+    width: 55%;
+    background-color: #001D2C;
 }
 
 /*FIM - Mensagem Inicial*/
